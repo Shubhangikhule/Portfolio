@@ -12,7 +12,7 @@ function App() {
 
   <div className="nav-brand">
     <img
-      src="/profile.jpg"
+      src={`${import.meta.env.BASE_URL}profile.jpg`}
       alt="Shubhangi Khule"
       className="nav-profile"
     />
@@ -65,7 +65,7 @@ function App() {
        </button>
 
             <a
-  href="/resume.pdf"
+ href={`${import.meta.env.BASE_URL}resume.pdf`}
   target="_blank"
   rel="noopener noreferrer"
   className="outline-button"
@@ -80,7 +80,7 @@ function App() {
         {/* ================= 3D HERO ================= */}
         <div className="hero-visual">
          <img
-           src="/profile.jpg"
+           src={`${import.meta.env.BASE_URL}profile.jpg`}
            alt="Shubhangi Khule"
            className="profile-photo"
         />
